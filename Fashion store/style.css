@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* HEADER */
+header{
+    width:100%;
+    height:200px;
+    display:flex;
+    flex-direction:column;
+}
+
+/* TOP BAR */
+.nav-bar1{
+    width:100%;
+    height:65px;
+    background-color:rgba(68,0,255,0.438);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+}
+
+/* PRODUCTS BAR */
+.nav-bar2{
+    width:100%;
+    height:135px;
+
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+/* EACH PRODUCT */
+.product{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* IMAGE */
+.product img{
+    width:100px;
+    height:100px;
+    object-fit:contain;
+}
+
+/* TEXT BELOW IMAGE */
+.product p{
+    margin-top:8px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+/* MAIN */
+main{
+    width:100%;
+    min-height:650px;
+    background-color: rgb(229, 228, 221);
+     padding-top: 20px;
+     padding-bottom: none;
+}
+
+/* HERO SECTION */
+.hero{
+    width: calc(100% - 160px);
+    height: 280px;
+
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px; 
+    
+    overflow: hidden;
+}
+
+.hero img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+/* SALE HEADING */
+table{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    
+    padding: 12px;
+    text-align: left;
+}
+
+th{
+    background-color: #5a5cff;
+    color: black;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    margin: 20px 0;
+}
+.content{
+    width: 100%;
+    height: 550px;
+    opacity: 0.5;
+
+  
+}
+.content h2{
+    text-align: left;
+    margin-left: 20px;
+}
+.content p{
+     margin-left: 20px;
+     margin-right: 40px;
+}
+.content2 h2{
+     text-align: left;
+    margin-left: 20px;
+
+}
+.content2 p{
+     margin-left: 20px;
+     margin-right: 40px;
+}
+.content2{
+    padding-bottom: 20px;
+}
+.content3 p{
+margin-left: 20px;
+     margin-right: 40px;
+
+}
+.content3 ul{
+  margin-left: 30px;  
+}
+.content3{
+    padding-bottom: 20px;
+}
+.content4 h2{
+    text-align: left;
+    margin-left: 20px;
+
+}
+.content4 p{
+ margin-left: 20px;
+     margin-right: 40px;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    
+    
+    color: white;
+}
+footer{
+    padding-bottom: 20px;
+}
