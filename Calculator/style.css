@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 500px;
+    width: 320px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(173, 152, 152);
+    
+}
+.display-section{
+    border-radius: 10px;
+    height: 150px;
+    background-color: rgb(232, 228, 228);
+    border: 2px solid white;
+   
+}
+.key-number{
+    margin-top: 10px;
+}
+.num button {
+    background-color:rgb(36, 185, 36);
+    border: none;
+    font-size: 25px;
+    height: 60px;
+    width: 70px;
+    margin: 3px;
+    border-radius:20px ;
+    color: white;
+    
+    
+
+    
+}
+.num .sq{
+    background-color: rgb(241, 142, 71);
+    
+}
+.num .ak{
+    background-color: rgba(53, 51, 51, 0.906);
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    height: 500px;  
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+.top{
+    display: flex;
+    margin: 20px;
+}
+.info{
+    padding: 35px;
+    margin-left: 40px;
+}
+.profile img{
+    height: 120px;
+    width:120px;
+    border-radius: 60px;
+    object-fit: cover;
+}
+.para{
+    margin: 20px;
+    margin-top: 80px;
+}
