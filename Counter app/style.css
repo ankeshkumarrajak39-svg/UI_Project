@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+   margin:0;
+   height: 100vh;
+    display:flex;
+    justify-content:center; /* Horizontal center */
+    align-items:center;     /* Vertical center */ 
+}
+h1{
+    padding-bottom: 50px;
+    margin-left: 20px;
+}
+.container{
+    height: 150px;
+    width: 350px;
+  
+}
+.add-minus-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+
+.increment-btn,
+.decrement-btn {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.show {
+    width: 100px;
+    height: 50px;
+    background-color: lightpink;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.reset-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset-btn button{
+    width: 150px;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+     border-radius: 10px;
+     padding: 5px;
+
+}
+.add-minus-btn .show button{
+
+    background-color: lightpink;
+    color: black;
+    text-align: center;
+
+}
