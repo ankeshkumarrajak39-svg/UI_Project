@@ -1,0 +1,30 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+border-radius: 10px;
+background-color: black;
+
+}
+.container {
+    color: white;          /* Text white */
+    font-size: 40px;       /* Font size */
+    font-weight: bold; 
+    text-align: center;    /* Bold text */
+}
+h1{
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
