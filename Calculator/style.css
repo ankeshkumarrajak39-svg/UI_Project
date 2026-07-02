@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container{
-    margin-top: 20px;
-    margin-left: 200px;
     height: 500px;
     width: 320px;
     border: 2px solid black;
@@ -13,13 +17,7 @@
     background-color: rgb(173, 152, 152);
     
 }
-.display-section{
-    border-radius: 10px;
-    height: 150px;
-    background-color: rgb(232, 228, 228);
-    border: 2px solid white;
-   
-}
+
 .key-number{
     margin-top: 10px;
 }
@@ -43,4 +41,24 @@
 }
 .num .ak{
     background-color: rgba(53, 51, 51, 0.906);
+}
+
+.display-section {
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgb(232, 228, 228);
+    border: 2px solid white;
+    padding: 10px;
+
+    overflow-y: auto;
+}
+
+.display-section p {
+    margin-top: 3px;
+    margin: 0;
+    font-size: 30px;
+
+    white-space: normal;      
+    word-break: break-all;   
+    overflow-wrap: break-word;
 }
